@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #aea3ce; /* Updated background color */
+    color: #725fa1; /* Updated text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e9c0c6; /* Updated header background color */
+    text-align: center; /* Center align header text */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #725fa1; /* Updated text color for navigation links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav ul li a:hover {
+    color: white; /* Change text color to white on hover */
+}
+
+main {
+    text-align: center; /* Center align main content */
+}
+
+h1 {
+    font-size: 36px; /* Increase font size for header */
+}
+
